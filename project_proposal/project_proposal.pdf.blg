@@ -1,0 +1,5 @@
+[0] Config.pm:318> INFO - This is Biber 1.8
+[0] Config.pm:321> INFO - Logfile is 'project_proposal.pdf.blg'
+[59] biber:275> INFO - === Sun Jan 22, 2017, 20:35:54
+[78] Utils.pm:185> ERROR - Cannot find control file 'project_proposal.pdf.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[78] Biber.pm:109> INFO - ERRORS: 1

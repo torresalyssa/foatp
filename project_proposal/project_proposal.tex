@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{parskip}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+ 
+\urlstyle{same}
+
+\begin{document}
+
+\title{\textbf{Project Proposal: Automated Theorem Proving}}
+\author{Alyssa Torres\\
+CPE 480 Artificial Intelligence}
+\date{January 21, 2017}
+\maketitle
+
+\section{Purpose}
+The purpose of this project is to learn more about automated theorem proving and how to implement a basic theorem prover. 
+
+\section{Description}
+The goal of this project is to implement a first order automated theorem prover using machine learning techniques. Another aspect of this project is to build a parser or find an open source parser in order to read in theorems. 
+
+\section{Resources}
+There is a dataset available for this problem \cite{dataset}. There is also a paper written about selecting a good heuristic for a first order problem solver \cite{ml-fotp}. The authors of this article used SVMs and GP classifiers to approach the problem. For this project, it could be interesting to apply another classification technique and compare the results with the results presented by Bridge, James P. and Holden, Sean B. and Paulson, Lawrence C. 
+
+Additionally, there is an ongoing project at PARC called AutoML \cite{automl} that can take in training and test data, run various classifiers on it, and return the classifier that performed best. This project may be useful to look at. Finally, there is an open source theorem prover, Lean \cite{lean}, that also relates to this project and may be useful.
+
+% collaboration between computer and human
+
+\printbibliography
+
+\end{document}
